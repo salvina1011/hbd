@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Ammajaan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #fdeff9, #ecf0ff);
+      color: #5D3A00;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    h1 {
+      margin-top: 60px;
+      font-size: 3em;
+      animation: float 4s infinite;
+      color: #c94f7c;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 700px;
+      color: #444;
+    }
+
+    .emoji {
+      font-size: 2em;
+    }
+
+    .floating {
+      position: absolute;
+      top: 10%;
+      animation: float 6s ease-in-out infinite;
+      opacity: 0.3;
+    }
+
+    .flower {
+      left: 5%;
+    }
+
+    .heart {
+      right: 5%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Birthday AmmaJaaan 🎉</h1>
+  <p>We are eternally grateful for having a strong woman like you in our lives 💘💘💘.<br>
+  Love you infinite and beyond words 🌻🌍</p>
+
+  <div class="emoji floating flower">🌸</div>
+  <div class="emoji floating heart">💖</div>
+
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
